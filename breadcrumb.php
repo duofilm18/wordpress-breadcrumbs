@@ -104,3 +104,7 @@ function qt_custom_breadcrumbs() {
  
   }
 } // end qt_custom_breadcrumbs()
+
+
+// Then use the short code
+<?php if (function_exists('qt_custom_breadcrumbs')) qt_custom_breadcrumbs(); ?>
